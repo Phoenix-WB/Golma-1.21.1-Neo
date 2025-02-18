@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "golma:block/serving_plate",
+		"particle": "golma:block/serving_plate"
+	},
+	"elements": [
+		{
+			"name": "plate",
+			"from": [4, 0, 4],
+			"to": [12, 2, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [8, 2, 16, 4], "texture": "#0"},
+				"south": {"uv": [8, 4, 16, 6], "texture": "#0"},
+				"west": {"uv": [8, 6, 16, 8], "texture": "#0"},
+				"up": {"uv": [8, 8, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 8, 0, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 7.75, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "plate",
+			"origin": [7, 0, 7],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

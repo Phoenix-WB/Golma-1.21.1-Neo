@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "wheat"
+    },
+    {
+      "item": "sugar"
+    },
+    {
+      "item": "egg"
+    },
+    {
+      "item": "carrot"
+    }
+  ],
+  "result": {
+    "id": "golma:carrot_cake",
+    "count": 3
+  }
+}

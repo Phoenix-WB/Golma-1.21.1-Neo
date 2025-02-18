@@ -1,0 +1,34 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_carpet"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"add": false,
+							"count": {
+								"type": "minecraft:uniform",
+								"max": 15,
+								"min": 0
+							},
+							"function": "minecraft:set_count"
+						}
+					],
+					"name": "minecraft:snowball"
+				}
+			]
+		}
+	]
+}

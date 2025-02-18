@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "golma:block/serving_plate",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "golma:block/serving_plate"
+    },
+    "facing=south": {
+      "model": "golma:block/serving_plate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "golma:block/serving_plate",
+      "y": 270
+    }
+  }
+}
